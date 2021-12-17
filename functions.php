@@ -10,10 +10,10 @@
 
 	add_action('wp_enqueue_scripts', 'theme_style');
 
-	//Add thumbnails
+	//Add post-thumbnails
 	add_theme_support('post-thumbnails');
 
-	//Add menus
+	//Add nav menus
 	register_nav_menus(array(
 		'main_menu' => __('Main Menu','theme_style'),
 		'sencondary_menu' => __('Secondary Menu','theme_style')
